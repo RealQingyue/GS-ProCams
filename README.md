@@ -113,9 +113,8 @@ This work builds upon [3DGS][1] and [2DGS][2]. We integrate [DiffMorpher][3], [C
 
 ## License
 
-This software is available free of charge for non-commercial, non-profit use and may be redistributed under the terms specified in [license](LICENSE). 
-
-**Note**: This work incorporates components from [3DGS][1], [2DGS][2], and other third-party projects. Please ensure compliance with their respective licenses.
+This repository is a derivative work based on [3DGS][1]/[2DGS][2]. Distributed for academic, non-commercial, research use only.
+See [LICENSE.md](LICENSE.md) for details.
 
 [1]: https://github.com/graphdeco-inria/gaussian-splatting
 [2]: https://github.com/hbb1/2d-gaussian-splatting

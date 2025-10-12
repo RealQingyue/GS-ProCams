@@ -1,6 +1,6 @@
-SOFTWARE LICENSE AGREEMENT
+# SOFTWARE LICENSE AGREEMENT
 
-ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERCIAL RESEARCH USE ONLY
+**ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERCIAL RESEARCH USE ONLY**  
 Copyright (c) 2025 Qingyue Deng, Jijiang Li, Haibin Ling, Bingyao Huang
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -10,3 +10,13 @@ The above copyright notice and this permission notice shall be included in all c
 If you publish results obtained using this software, please cite our paper.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# Derivative Work License Notice
+
+This repository is a derivative work based on Gaussian-Splatting Software.
+
+The original Gaussian-Splatting Software license can be found at:  
+[LICENSE](https://github.com/graphdeco-inria/gaussian-splatting/blob/main/LICENSE.md)
+
+All rights of the original software remain with Inria and MPII.  
+The non-commercial, research-only use restriction continues to apply.
