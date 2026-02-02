@@ -3,13 +3,13 @@
 # =============================================================================
 
 # Configuration
-$input_dir = if ($env:INPUT_DIR) { $env:INPUT_DIR } else { "data/compensation" }
-$output_dir = if ($env:OUTPUT_DIR) { $env:OUTPUT_DIR } else { "output/compensation" }
+$input_dir = "data/compensation"
+$output_dir = "output/compensation"
 
 $setup_names = @("cloud", "pillow", "velvet", "yellow_paint")
 $model_types = @("brdf")
 
-$gpu_id = if ($env:GPU_ID) { $env:GPU_ID } else { "0" }
+$gpu_id = "0"
 
 # Function to monitor GPU memory usage
 function Monitor-GPUMemory {

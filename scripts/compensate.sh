@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Configuration
-input_dir="${INPUT_DIR:-data/compensation}"
-output_dir="${OUTPUT_DIR:-output/compensation}"
+input_dir="data/compensation"
+output_dir="output/compensation"
 
 setup_names=("cloud" "pillow" "velvet" "yellow_paint")
 model_types=("brdf")
 
-gpu_id="${GPU_ID:-0}"
+gpu_id="0"
 
 
 # Function to monitor GPU memory usage

@@ -15,14 +15,15 @@ Official implementation of "GS-ProCams: Gaussian Splatting-based Projector-Camer
 ### Setup
 
 ```bash
-# 1. Download
+# 1. Clone the repo
 git clone https://github.com/RealQingyue/GS-ProCams.git
 
-# 2. Create conda environment
+# 2. Create a python environment
 conda env create -f environment.yml
 conda activate gs-procams
 
-# 3. Build submodules
+# 3. Install packages
+pip install -r requirements.txt
 pip install -e submodules/diff-gaussian-rasterization -e submodules/simple-knn
 ```
 

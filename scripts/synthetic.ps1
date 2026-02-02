@@ -6,13 +6,13 @@
 # =============================================================================
 
 # Configuration
-$input_dir = if ($env:INPUT_DIR) { $env:INPUT_DIR } else { "data/nepmap-dataset" }
-$output_dir = if ($env:OUTPUT_DIR) { $env:OUTPUT_DIR } else { "output/nepmap-dataset" }
+$input_dir = "data/nepmap-dataset"
+$output_dir = "output/nepmap-dataset"
 
 $setup_names = @("castle", "planck", "zoo", "pear")
 $model_types = @("wo_psf")
 
-$gpu_id = if ($env:GPU_ID) { $env:GPU_ID } else { "0" }
+$gpu_id = "0"
 
 # Function to monitor GPU memory usage
 function Monitor-GPUMemory {

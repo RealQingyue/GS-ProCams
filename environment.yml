@@ -1,18 +1,8 @@
-name: gsprocams
+name: gs-procams
 channels:
   - defaults
 dependencies:
   - python=3.11
-  - pip<25.3
-  - tqdm
-  - matplotlib
-  - scipy
-  - pyyaml
-  - scikit-image
-  - pip:
-    - --extra-index-url https://download.pytorch.org/whl/cu118
-    - torch==2.6.0+cu118
-    - torchaudio==2.6.0+cu118
-    - torchvision==0.21.0+cu118
-    - opencv-python
-    - plyfile
+  - pip==23.3.2
+  - setuptools==68.2.2
+  - wheel==0.41.3

@@ -6,21 +6,21 @@
 # =============================================================================
 
 # Configuration
-$input_dir = if ($env:INPUT_DIR) { $env:INPUT_DIR } else { "data/real-world" }
-$output_dir = if ($env:OUTPUT_DIR) { $env:OUTPUT_DIR } else { "output/real-world" }
+$input_dir = "data/real-world"
+$output_dir = "output/real-world"
 
 $setup_names = @("basketball", "bottles", "coffee", "chikawa", "color", "projector", "wukong")
 $model_types = @("brdf")
 $num_views = @(25) # Ablation 1: (20, 10, 5, 4, 2) for viewpoints number ablation
 $num_images = @()   # Ablation 2: (75, 50, 25) for images number ablation
 
-$gpu_id = if ($env:GPU_ID) { $env:GPU_ID } else { "0" }
+$gpu_id = "0"
 
 # Pipeline control flags
-$run_training = if ($env:RUN_TRAINING -eq "true") { $true } else { $false }
-$run_rendering = if ($env:RUN_RENDERING -eq "true") { $true } else { $false }
-$run_evaluation = if ($env:RUN_EVALUATION -eq "false") { $false } else { $true }
-$skip_existing = if ($env:SKIP_EXISTING -eq "true") { $true } else { $false }
+$run_training   = $true
+$run_rendering  = $true
+$run_evaluation = $true
+$skip_existing  = $false
 
 # =============================================================================
 # Helper Functions

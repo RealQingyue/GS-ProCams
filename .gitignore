@@ -12,3 +12,5 @@ data/*
 assets/*
 .DS_Store
 __MACOSX/
+*.egg-info/
+submodules/simple-knn

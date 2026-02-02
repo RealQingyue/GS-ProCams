@@ -8,21 +8,21 @@
 # =============================================================================
 
 # Configuration
-input_dir="${INPUT_DIR:-data/real-world}"
-output_dir="${OUTPUT_DIR:-output/real-world}"
+input_dir="data/real-world"
+output_dir="output/real-world"
 
 setup_names=("basketball" "bottles" "coffee" "chikawa" "color" "projector" "wukong")
 model_types=("brdf")
 num_views=(25) # Ablation 1: (20, 10, 5, 4, 2) for viewpoints number ablation
 num_images=()   # Ablation 2: (75, 50, 25) for images number ablation
 
-gpu_id="${GPU_ID:-0}"
+gpu_id="0"
 
 # Pipeline control flags
-run_training="${RUN_TRAINING:-false}"
-run_rendering="${RUN_RENDERING:-false}"
-run_evaluation="${RUN_EVALUATION:-true}"
-skip_existing="${SKIP_EXISTING:-false}"
+run_training=true
+run_rendering=true
+run_evaluation=true
+skip_existing=false
 
 # =============================================================================
 # Helper Functions

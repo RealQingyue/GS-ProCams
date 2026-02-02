@@ -8,13 +8,13 @@
 # =============================================================================
 
 # Configuration
-input_dir="${INPUT_DIR:-/mnt/data/huang-lab/qingyue/GS-ProCams/ISMAR25/Synthetic/input/setups}"
-output_dir="${OUTPUT_DIR:-/mnt/data/huang-lab/qingyue/GS-ProCams/ISMAR25/camera-ready/Synthetic/output}"
+input_dir="data/nepmap-dataset"
+output_dir="output/nepmap-dataset"
 
 setup_names=("castle" "planck" "zoo" "pear")
 model_types=("wo_psf")
 
-gpu_id="${GPU_ID:-0}"
+gpu_id="0"
 
 # Function to monitor GPU memory usage
 monitor_gpu_memory() {
